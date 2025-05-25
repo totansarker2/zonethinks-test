@@ -4,6 +4,11 @@ import "./home.css";
 import Navbar from "../../Components/Navbar/Navbar";
 import Hero from "../../Components/Home/Hero/Hero";
 import About from "../../Pages/About/About";
+import Servies from "../../Pages/Services/Services";
+import WhyUs from "../WhyUs/WhyUs";
+import OurVision from "../OurVision/OurVision";
+import Articles from "../Articles/Articles";
+import MeetTeam from "../MeetTeam/MeetTeam";
 // import Footer from "../../Components/Footer/Footer";
 // import { useEffect } from "react";
 
@@ -14,6 +19,11 @@ const Home = () => {
       <Navbar />
       <Hero />
       <About />
+      <Servies />
+      <WhyUs />
+      <OurVision />
+      <Articles/>
+      <MeetTeam />
     </div>
   );
 };
