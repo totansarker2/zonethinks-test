@@ -3,7 +3,7 @@ import img1 from "../../assets/images/coworkers-working-on-project-together-in-o
 import img2 from "../../assets/images/coworkers-working-on-project-together-in-office-2.jpg";
 
 const About = () => (
-  <section className="bg-black text-white py-20 px-6">
+  <section className="bg-black text-white h-[100vh] flex items-center justify-center">
     <div className="container mx-auto flex flex-col lg:flex-row items-center gap-12">
       {/* Left: Overlapping Images */}
       <div className="relative flex-shrink-0 w-full lg:w-1/2 h-[400px]">

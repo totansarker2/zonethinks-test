@@ -26,7 +26,7 @@ const services = [
 
 const ServicesSection = () => {
   return (
-    <section className="bg-black text-white py-20 px-6">
+    <section className="bg-black text-white  h-[100vh] flex items-center justify-center">
       <div className="container mx-auto max-w-7xl">
         {/* Top Section */}
         <div className="flex flex-col lg:flex-row justify-between mb-16">

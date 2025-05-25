@@ -2,7 +2,7 @@ import { FaUserFriends, FaDatabase, FaHeadset, FaChartPie, FaCheck } from "react
 
 const WhyUs = () => {
   return (
-    <section className="py-20 bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 text-white">
+    <section className=" h-[100vh] flex items-center justify-center bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 text-white">
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16">
         {/* Left Cards */}
         <div className="grid grid-cols-2 gap-6">

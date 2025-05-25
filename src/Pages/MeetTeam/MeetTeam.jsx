@@ -37,7 +37,7 @@ const team = [
 
 const TeamSection = () => {
   return (
-    <section className="bg-black text-white py-16 px-4">
+    <section className="bg-black text-white  h-[100vh] flex items-center justify-center">
       <div className="max-w-6xl mx-auto text-center">
         <p className="text-red-500 uppercase tracking-widest text-sm mb-2">
           Team
