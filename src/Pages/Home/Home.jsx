@@ -9,13 +9,14 @@ import WhyUs from "../WhyUs/WhyUs";
 import OurVision from "../OurVision/OurVision";
 import Articles from "../Articles/Articles";
 import MeetTeam from "../MeetTeam/MeetTeam";
+// import background from "../../assets/images/home-background.jpg"
 // import Footer from "../../Components/Footer/Footer";
 // import { useEffect } from "react";
 
 const Home = () => {
   // const [pagesOpen, setPagesOpen] = useState(false);
   return (
-    <div className="bg-gradient-to-b from-purple-600 via-pink-200 to-orange-100 text-black relative border-4 h-full">
+    <div className="bg-gradient-to-r from-pink-600 via-purple-300 to-blue-600 text-black relative h-full">
       <Navbar />
       <Hero />
       <About />
