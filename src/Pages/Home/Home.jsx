@@ -1,8 +1,8 @@
 import React from "react";
 // import { useState } from "react";
 import "./home.css";
-import Navbar from "../../Components/Navbar/Navbar";
-import Hero from "../../Components/Home/Hero/Hero";
+import Navbar2 from "../../Components/Navbar/Navbar2";
+import Hero2 from "../../Components/Home/Hero/Hero2";
 import About from "../../Pages/About/About";
 import Servies from "../../Pages/Services/Services";
 import WhyUs from "../WhyUs/WhyUs";
@@ -16,14 +16,15 @@ import MeetTeam from "../MeetTeam/MeetTeam";
 const Home = () => {
   // const [pagesOpen, setPagesOpen] = useState(false);
   return (
-    <div className="bg-gradient-to-r from-pink-600 via-purple-300 to-blue-600 text-black relative h-full">
-      <Navbar />
-      <Hero />
+    // <div className="bg-gradient-to-r from-pink-600 via-purple-300 to-blue-600 text-black relative h-full">
+    <div className=" text-black relative h-full">
+      <Navbar2 />
+      <Hero2 />
       <About />
       <Servies />
       <WhyUs />
       <OurVision />
-      <Articles/>
+      <Articles />
       <MeetTeam />
     </div>
   );
