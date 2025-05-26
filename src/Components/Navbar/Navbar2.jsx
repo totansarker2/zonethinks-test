@@ -14,10 +14,14 @@ const Navbar = () => {
       {/* Top Bar */}
       <div className="bg-[#5319DD] text-white text-sm flex items-center justify-between px-6 py-2">
         <div className="flex items-center space-x-4">
-          <HiMail className="inline-block" />
-          <span>zonethink@gmail.com</span>
-          <HiLocationMarker className="inline-block" />
-          <span>Narsingdi Sadar, Dhaka, Bangladesh</span>
+          <div className="space-x-2">
+            <HiMail className="inline-block" />
+            <span>zonethink@gmail.com</span>
+          </div>
+          <div className="space-x-2">
+            <HiLocationMarker className="inline-block" />
+            <span>Narsingdi Sadar, Dhaka, Bangladesh</span>
+          </div>
         </div>
         <div className="flex items-center space-x-4">
           <a href="#" className="hover:text-gray-200">
